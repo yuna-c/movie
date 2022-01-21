@@ -8,7 +8,7 @@ function Header() {
             <header className="header">
                 <nav className="nav float-area">
                     <h1 className="logo-area fl">
-                         <Link to="">
+                         <Link to="/">
                              <img src={ico_logo} alt="logo" />
                          </Link>
                     </h1>
