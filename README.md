@@ -1,4 +1,4 @@
-https://yuna-c.github.io/
+https://yuna-c.github.io/movie/
 <br>
 
 # Getting Started with Create React App
