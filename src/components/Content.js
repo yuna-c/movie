@@ -1,11 +1,11 @@
 import React from 'react';
-import ico_pc from './img/ico_pc.png';
-import ico_mo from './img/ico_mo.jpg';
-import ico_device from './img/ico_device.png';
-import ico_keds from './img/ico_keds.png';
-import video_01 from './img/video_01.m4v';
-import video_02 from './img/video_02.m4v';
-import ToggleList from './ToggleList';
+import ico_pc from '../img/ico_pc.png';
+import ico_mo from '../img/ico_mo.jpg';
+import ico_device from '../img/ico_device.png';
+import ico_keds from '../img/ico_keds.png';
+import video_01 from '../img/video_01.m4v';
+import video_02 from '../img/video_02.m4v';
+import ToggleList from '../ToggleList';
 
 function Content() {
     return (

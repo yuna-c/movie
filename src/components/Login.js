@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import ico_fb from './img/ico_fb.png';
+import { Link } from 'react-router-dom'; 
+import ico_fb from '../img/ico_fb.png';
 
 function Login() {
     const [loading, setLoading] = useState(false);
@@ -13,7 +13,7 @@ function Login() {
                 <div className="content-layout">
                     <div className="login-area">
                         <h2 className="dep3-tit">로그인</h2>
-                        <form action="GET">
+                        <form>
                             <div className="form-input txt-center mb16">
                                 <label htmlFor="email">
                                     <input type="text" id="email" className="input-login" placeholder="Email or phone number" maxLength="50" minLength="5" />
@@ -25,7 +25,9 @@ function Login() {
                                 </label>
                             </div>
                             <div>
-                                <button className="btn btn-login">로그인</button>
+                                <Link to="/detail">
+                                    <button className="btn btn-login">로그인</button>
+                                </Link>
                             </div>
                             <div className="form-area flex-area">
                                 <label className="input-check color-gray" id="checkbox">
@@ -35,8 +37,8 @@ function Login() {
                                 <Link to="" className="color-gray">Need help?</Link>
                             </div>
                             <div className="txt-area mt40">
-                                <Link to="" className="login-fb">
-                                    <img src={ico_fb} alt="" className="ico-fb mr5" />
+                                <Link onClick={() => window.open('https://www.facebook.com/', '_self')} className="login-fb">
+                                    <img src={ico_fb} alt="" className="ico-fb mr5"/>
                                     <span className="color-gray">Login with Facebook</span>
                                 </Link>
                             </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import ico_logo from './img/ico_logo.png';
+import ico_logo from '../img/ico_logo.png';
 
 function Header() {
     return (
@@ -22,7 +22,7 @@ function Header() {
                         </div>
                         
                         <div>
-                            <Link to="login" className="btn btn-red">로그인</Link>
+                            <Link to="/login" className="btn btn-red">로그인</Link>
                         </div>
                     </div>
                 </nav>
@@ -30,5 +30,6 @@ function Header() {
         </div>
     )
 }
+
 
 export default Header;
