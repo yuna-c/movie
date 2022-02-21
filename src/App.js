@@ -25,7 +25,7 @@ function App() {
                     <Route path="/login">
                         <Login />
                     </Route>
-                    <Route path="/movie">
+                    <Route path="/">
                         <Content />
                     </Route>
                 </Switch>
