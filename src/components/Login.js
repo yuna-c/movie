@@ -25,7 +25,7 @@ function Login() {
                                 </label>
                             </div>
                             <div>
-                                <Link to="/detail">
+                                <Link to="/movie/detail">
                                     <button className="btn btn-login">로그인</button>
                                 </Link>
                             </div>
