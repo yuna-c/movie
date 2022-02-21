@@ -32,6 +32,8 @@ function App() {
                 <Footer />
             </Router>
         </div>
+        // $ npm i gh-pages
+        // $ npm run build
     );
 }
 
